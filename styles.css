@@ -1,0 +1,108 @@
+/*
+Background photo by rawpixel.com from Pexels
+*/
+
+body {
+	background-image: url("background.jpg");
+	background-repeat: no-repeat;
+	background-size: 3000px 2000px;
+}
+
+.container {
+	align-content: center;
+	padding-top: 8%;
+}
+
+.mx-auto {
+	width: 550px;
+	margin: 20px;
+	background-color: #f7f7f7;
+	opacity: 0.8;
+	padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+	.mx-auto {
+		width: 280px;
+	}
+}
+
+p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+table {
+	margin: 10px;
+}
+
+.top-left-cell {
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+
+.top-center-cell {
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.top-right-cell {
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.center-left-cell {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+
+.center-cell {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.center-right-cell {
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+}
+
+.bottom-left-cell {
+	border-top-style: solid;
+	border-right-style: solid;
+}
+
+.bottom-center-cell {
+	border-top-style: solid;
+	border-right-style: solid;
+	border-left-style: solid;
+}
+
+.bottom-right-cell {
+	border-top-style: solid;
+	border-left-style: solid;
+}
+
+.outer-cell {
+	border-width: thick;
+}
+
+.inner-cell {
+	width: 40px;
+	height: 40px;
+	border-width: medium;
+}
+
+.btn {
+	margin: 10px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 200px;
+    overflow-x: hidden;
+}
